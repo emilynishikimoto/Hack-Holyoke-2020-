@@ -1,0 +1,17 @@
+<h1>COVID-19 Spread Predictor</h1>
+<p>Please enter the date you would like to project cases for and the current number of cases</p>
+{% block content %}
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+
+{% if form.is_valid %}
+<p> Projected number of cases with uncontrolled spread: <b>{{ projected }}</b></p>
+<p> Projected number of deaths: <b>{{ deathRate }}</b></p>
+<p> These deaths can be prevented by enacting measures to stop the spread of COVID-19</p>
+<p> Remember to wear a mask, limit social interaction, and practice social distancing as per CDC guidelines</p>
+{% endif %}
+
+{% endblock %}
