@@ -3,3 +3,9 @@ This project was done in 24 hours at HackHolyoke Hackathon 2020. Our goal was to
 
 HackHolyoke.py includes the command line program, the rest are part of the Django implementation. 
 DEMO.mv includes a demo of both the command line and the Django programs. 
+
+# Official Hackathon Entry 
+The official Hackathon entry can be found at this [link.](https://devpost.com/software/covidtracker-1ho7uj) 
+
+# Required
+Python
